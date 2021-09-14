@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const prompt = require('prompt-sync')();
+
 const translationList = [
   { roman: 'I', arabic: 1 },
   { roman: 'IV', arabic: 4 },
@@ -14,7 +17,7 @@ const translationList = [
 
 // 83 = LXXXIII
 // 4879 = MMMMDCCCLXXIX
-let numberToTranslate = 5000;
+const numberToTranslate = prompt("What's your number ? ");
 
 const reduceThousands = (number) => {
   const howManyThousands = Math.floor(number / 1000);
