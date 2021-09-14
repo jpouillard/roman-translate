@@ -8,12 +8,13 @@ const translationList = [
   { roman: 'XC', arabic: 90 },
   { roman: 'C', arabic: 100 },
   { roman: 'D', arabic: 500 },
+  { roman: 'CM', arabic: 900 },
   { roman: 'M', arabic: 1000 },
 ].reverse();
 
 // 83 = LXXXIII
 // 4879 = MMMMDCCCLXXIX
-let numberToTranslate = 93874;
+let numberToTranslate = 5000;
 
 const reduceThousands = (number) => {
   const howManyThousands = Math.floor(number / 1000);
