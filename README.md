@@ -22,5 +22,5 @@ Une API générée avec l'outils NestJS. Pour lancer l'API, il suffit de lancer 
 npm run start:dev
 ```
 
-L'API REST peut ensuite être utilisée au travers de l'URL suivante : http://localhost:3000/translate/roman?arabic=3098
-On peut aussi voir le détails de la traduction avec la route suivante : http://localhost:3000/translate/roman/steps?arabic=3098
+L'API REST peut ensuite être utilisée au travers de l'URL suivante : http://localhost:4000/translate/roman?arabic=3098
+On peut aussi voir le détails de la traduction avec la route suivante : http://localhost:4000/translate/roman/steps?arabic=3098
