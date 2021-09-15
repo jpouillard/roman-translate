@@ -6,6 +6,7 @@ export const TRANSLATIONS_TO_ROMAN = [
   { roman: 'V', arabic: 5 },
   { roman: 'IX', arabic: 9 },
   { roman: 'X', arabic: 10 },
+  { roman: 'XL', arabic: 40 },
   { roman: 'L', arabic: 50 },
   { roman: 'XC', arabic: 90 },
   { roman: 'C', arabic: 100 },
