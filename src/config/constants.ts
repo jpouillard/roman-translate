@@ -10,6 +10,7 @@ export const TRANSLATIONS_TO_ROMAN = [
   { roman: 'L', arabic: 50 },
   { roman: 'XC', arabic: 90 },
   { roman: 'C', arabic: 100 },
+  { roman: 'CD', arabic: 400 },
   { roman: 'D', arabic: 500 },
   { roman: 'CM', arabic: 900 },
   { roman: 'M', arabic: 1000 },
